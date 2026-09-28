@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  color: white;
+}
+body { margin: 0; min-height: 100vh; background: /* Green glow from the bottom */ radial-gradient( ellipse at 15% 100%, rgba(0, 220, 120, 0.35) 0%, rgba(0, 150, 100, 0.20) 25%, transparent 60% ), /* Blue glow from the right */ radial-gradient( ellipse at 100% 50%, rgba(0, 100, 255, 0.30) 0%, rgba(0, 70, 180, 0.15) 30%, transparent 65% ), /* Main dark background */ linear-gradient( to top, #061a18 0%, #07111f 45%, #030508 100% ); color: white; 
+.navTab {
+  display: flex;
+
+  .headerContainer {
+    height: 60px;
+    width: 20%;
+    border: 2px solid white;
+    color: white;
+    background: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    //   make sure to put in something animated here
+
+    .logoName {
+        padding: 20px;
+    }
+      img {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        float: left;
+    }
+      }
+  nav {
+    height: 60px;
+    width: 80%;
+     border: 2px solid white;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background: black;
+    font-family: "Roboto", sans-serif;
+
+    #quoteButton {
+      border-radius: 10px;
+      background-color: burlywood;
+      // change color
+      margin: 5px;
+      height: 40px;
+      width: 150px;
+    }
+  }
+}
+section {
+  height: 800px;
+  width: 100%;
+   border: 2px solid white;
+   margin: 5px;
+  display: flex;
+  .homeContainer {
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    padding: 200px;
+    
+    .iconManagement {
+        display: inline;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+
+        .security { color: blueviolet; text-shadow: rgba(17,0,255,0.9) 0px 0px 76px;}
+        .scalability { color: green; text-shadow: rgba(85,255,0,0.9) 0px 0px 76px; }
+        .collaboration { color: cyan; text-shadow: rgba(0,255,234,0.9) 0px 0px 76px;}
+
+    }
+  
+  h1, h2 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    padding: 5px;
+  }
+  h1 {
+    color: darkgreen;
+    padding: 5px;
+  }
+  .descriptionBusiness {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+   }
+}
+}
