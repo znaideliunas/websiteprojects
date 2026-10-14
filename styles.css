@@ -14,6 +14,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   color: #27221f;
+  background: white;
   line-height: 1.5;
 }
 
@@ -39,6 +40,7 @@ textarea:focus-visible {
   padding: 0 20px;
   border: none;
   border-radius: 8px;
+  text-decoration: none;
   background: #3e151f;
   color: white;
   font: inherit;
